@@ -24,6 +24,15 @@
 <string>需要打开相机权限，进行拍照/录像</string>
 
  
+ 
+附（ 在iOS里面调用系统相机、相册显示英文，需要修改成中文的方法
+
+1、先把手机的语言模式设置成简体中文
+
+2、在Info.Plist里面把Localization native development region字段修改成China
+
+3、在Info.Plist里面添加字段Localized resources can be mixed（Boolean）值为YES）
+
 
 2、需要使用的系统库、代理、初始化UIImagePickerController
 
